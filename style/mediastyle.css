@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.hec{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 70vw;
+    
+}
+.hec1{
+    background-color: #dbd5d5;
+}
+.csr1{
+    border-bottom: thin solid white;
+    position: sticky;
+    top: 0;
+}
+.csr{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 70vw;
+   
+}
+.hec ul{
+    display: flex;
+    font-size: x-small;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    gap: 10px;
+}
+.hec ul a:hover{
+    color: red;
+}
+.hec ul a{
+    color: #999999;
+}
+.hec img{
+    height: 10px;
+    border-radius: 30px;
+}
+.csr ul{
+    display: flex;
+    font-weight: 700;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    align-items: center;
+    gap: 20px;
+    
+}
+.csr li a:hover{
+    color: red;
+}
+.csr ul a{
+    color: #999999;
+}
+.csr img{
+    height: 5vw;
+}
+.inb{
+    width: 10vw;
+    border-radius: 40px;
+    font-size: x-small;
+    padding: 10px;
+    background-image: linear-gradient(to right, red, rgb(62, 12, 12));
+}
+.inb a{
+    color: white;
+}
+.sh{
+    width: 7vw;
+    padding: 10px;
+    border-radius: 20px;
+    border: thin solid;
+}
+.sh a{
+    color: #999999;
+    font-size: x-small;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+
+}
+/* body11111111111111111 */
+.kats{
+    height: 20vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slide 20s linear infinite;
+    animation-timing-function: ease-in-out;
+    background-image: url(../pictures/trophy.jpg);
+}
+@keyframes slide {
+   0%{
+      background-image: url(../pictures/trophy.jpg);
+   } 
+   25%{
+      background-image: url(../pictures/school-children.jpg);
+   }
+   50%{
+       background-image: url(../pictures/about-us-awards-achievements-catchprase\ \(1\).jpg);
+   }
+   75%{
+       background-image: url(../pictures/corporate-banking-bank-accounts-catchprase\ \(1\).jpg);
+   }
+   100%{
+       background-image: url(../pictures/corporate-banking-card-solutions-catchprase\ \(1\).jpg);
+   }
+}
+.hall{
+   background-color: #f3f0f0;
+   margin: 15px;
+}
+.gall{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    font-size: x-small;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: auto;
+}
+.gall a{
+    color: #2d2c2c;
+}
+.gall a:hover{
+    color: red;
+}
+.gall img{
+    height: 4vw;
+}
+/* body22222222222 */
+.find {
+     margin: 20px;
+}
+.have {
+    /* justify-content: center; */
+    margin: auto;
+    width: 60vw;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* font-size: small; */
+}
+.have h5{
+    color: #777777;
+}
+.have h1{
+    color: #444444;
+}
+            /* body33333333 */
+.arti{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+    gap: 2rem;
+    /* border-bottom: thick solid red; */
+}
+.artii{
+    border-bottom: thick solid red;
+}
+.arti div{
+     margin: auto;
+     width: 35vw;
+     height: 25vw;
+     /* aspect-ratio: 1 / 1; */
+     /* container-type: inline-size; */
+     /* border: thin solid black; */
+    
+}
+.arti div ul{
+    padding: 100px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: white;
+    
+    
+}
+.arti button{
+    padding: 15px 25px;
+    background-color: red;
+    border: none;
+}
+.arti button:hover{
+    background-color: rgb(132, 39, 39);
+}
+.arti button a{
+    color: white;
+    font-weight: 700;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+.rnb4{
+    display: flex;
+    justify-content: end;
+
+}
+.rnb{
+ /* position: fixed; */
+ margin-top: -1700px;
+ z-index: 1;
+ position: fixed;
+}
+.rnb li{
+    /* justify-content: center; */
+    height: 42px;
+    /* margin: px; */
+    border: thin solid rgb(150, 148, 148);
+    padding: 10px;
+}
+.rnb ul :hover{
+    background-color: red;
+    color: white;
+}
+.rnb li a{
+    color: #676767;
+    font-weight: 700;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    
+}
+.rnb ul{
+    /* justify-content: end; */
+    width: 9vw;
+    /* height: 17vw; */
+    /* background-color: red; */
+    font-size: xx-small;
+    background-color: white;
+    
+}
+
+/* body3 background */
+.case{
+    background-image: url(../pictures/zenith-news-zenith-image-section-4.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.video{
+    background-image: url(../pictures/video\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.audio{
+    background-image: url(../pictures/audio.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.world{
+    background-image: url(../pictures/gallery\ \(2\).jpg);
+    background-size: cover;
+}
+.whet{
+    background-image: url(../pictures/documents.jpg);
+    background-size: cover;
+}
+.forum{
+    background-image: url(../pictures/zenith-community.jpg);
+    background-size: cover;
+}
+/* FOOTER                 FOOTER */
+.load{
+    margin: 20px;
+}
+.reg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 80vw;
+    gap: 10px;
+    margin: auto;
+
+    
+}
+
+.reg h3{
+    font-weight: 700;
+    font-size: 11px;
+    color: #444444;
+    font-family: Roboto;
+}
+.reg li{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+
+}
+.reg li a{
+    color: #999999;
+}
+.reg li a:hover{
+    color: red;
+}
+.reg img{
+    width: 16vw;
+}
+/* foootttt 22222 */
+.inn img{
+    height: 2vw;
+
+}
+.inn{
+    display: flex;
+    gap: 10px;
+    padding: 5px 150px;
+    border: thin solid black;
+    width: 70vw;
+    margin: auto;
+}
+.in{
+ margin: 100px;
+}
+.plc{
+    display: flex;
+}
+.plc ul{
+    display: flex;
+    margin: auto;
+    font-size: x-small;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    
+}
+.plc li a{
+    color: #676767;
+}
+.plc li a:hover{
+    color: red;
+}
+
+
+
+
+/* MEDIA QUERRRRRYYYYYYYYYYYYYYY */
+
+
+@media screen and (max-width: 1024px){
+    .csr2 li{
+        display: none;
+    } 
+    .csr3 button{
+        display: none;
+    }
+    .inb{
+        width: 20vw;
+    }
+    .arti div{
+        overflow: hidden;
+        font-size: xx-small;
+    }
+    .arti ul{
+        /* width: 45vw; */
+        margin-top: -80px;
+    }
+    .rnb{
+        display: none;
+    }
+    }
+    @media screen and (max-width: 769px)  {
+        .have{
+            width: 90vw;
+            font-size: x-small;
+        }
+        .arti{
+            display: block; 
+            
+        }
+        .arti div{
+            width: 80vw;
+            height: 50vw;
+            margin: 30px;
+            overflow: hidden;
+            
+        }
+    }
+    @media screen and (max-width: 780px) {
+        .reg{
+            display: block;
+            width: 50vw;
+           text-align: center;
+           
+        }
+        .reg ul{
+            margin: 10px;
+        }
+        .plc{
+            display: grid;
+            font-size: 10px;
+        }
+    }
+    @media screen and (max-width: 450px) {
+        .reg{
+            width: 50vw;
+        }
+        .gall a{
+            font-size: 5px;
+        }
+        .inn{
+            padding: 0px;
+            width: 40vw;
+    
+        }
+        .arti ul{
+            width: 100vw;
+        }
+       .plc a{
+        font-size: 6px;
+       }
+    }

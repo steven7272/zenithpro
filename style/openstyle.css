@@ -1,0 +1,135 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   list-style-type: none;
+}
+.come img{
+     height: 55vw;
+}
+.containerfluid{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.mont{
+    width: 25vw;
+    overflow: scroll;
+    /* background-color: aqua; */
+    
+}
+.mont ul{
+    margin: 30px;
+}
+.mont li{
+    justify-content: center;
+}
+.container{
+    margin: auto;
+   
+}
+.ent{
+    display: flex;
+    gap: 10px;
+    font-weight: 400;
+    font-family: montserrat, arial, verdana;
+    font-size: 13px;
+}
+.ent button{
+    padding: 3px 30px;
+    border-radius: 7px;
+    border: none;
+}
+.but1{
+    display: flex;
+    gap: 10px;
+}
+.but2{
+    display: flex;
+    gap: 10px;
+}
+.join{
+    font-weight: 500;
+    font-family: montserrat, arial, verdana;
+    color: #212529;
+    font-size: 15px;
+    margin: auto;
+    justify-content: center;
+    margin: 50px;
+    
+}
+.join li{
+    margin: auto;
+    width: 30vw;
+}
+.phone{
+    font-weight: 600;
+    font-family: montserrat, arial, verdana;
+    font-size: 16px;
+    color: #343434;
+}
+.but{
+    font-family: montserrat, arial, verdana;
+    font-weight: 400;
+    font-size: 16px;
+    color: #212529;
+}
+.but button{
+    padding: 8px;
+    
+}
+.but button:hover{
+    background-color: red;
+}
+.get{
+    font-family: montserrat, arial, verdana;
+    font-weight: 400;
+    font-size: 16px;
+    color: red;
+}
+.star button{
+     padding: 15px 100px;
+     border-radius: 5px;
+     background-color: red;
+    
+}
+.star button a{
+    color: aliceblue;
+    font-family: montserrat, arial, verdana;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.already{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: montserrat, arial, verdana;
+    text-align: center;
+}
+.already a{
+    color: red;
+    text-decoration: none;
+}
+.mobil input, .text input{
+    padding: 10px 50px;
+}
+
+
+
+/* MEDIA QERYYYYYYYYYYYYYYYYYYYYYY */
+
+
+
+@media screen and (max-width: 769px) {
+    .containerfluid{
+       display: block;
+    }  
+    .come img{
+       width: 100vw;
+    } 
+    .mont{
+       width: 100vw;
+    }
+   }

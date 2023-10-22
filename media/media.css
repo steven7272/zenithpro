@@ -1,0 +1,66 @@
+@media screen and (max-width: 1024px){
+.csr2 li{
+    display: none;
+} 
+.csr3 button{
+    display: none;
+}
+.inb{
+    width: 20vw;
+}
+.arti div{
+    overflow: hidden;
+    font-size: xx-small;
+}
+.arti ul{
+    /* width: 45vw; */
+    margin-top: -80px;
+}
+.rnb{
+    display: none;
+}
+}
+@media screen and (max-width: 769px)  {
+    .have{
+        width: 90vw;
+        font-size: x-small;
+    }
+    .arti{
+        display: block; 
+        
+    }
+    .arti div{
+        width: 80vw;
+        height: 50vw;
+        margin: 30px;
+        overflow: hidden;
+        
+    }
+}
+@media screen and (max-width: 780px) {
+    .reg{
+        display: block;
+        width: 50vw;
+       text-align: center;
+       
+    }
+    .reg ul{
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .reg{
+        width: 50vw;
+    }
+    .gall a{
+        font-size: xx-small;
+    }
+    .inn{
+        padding: 0px;
+        width: 40vw;
+
+    }
+    .arti ul{
+        width: 100vw;
+    }
+}

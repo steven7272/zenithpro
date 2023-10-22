@@ -1,0 +1,27 @@
+@media screen and (max-width: 1025px){
+.head4{
+    display: none;
+}  
+.head22{
+    display: flex;
+}  
+}
+/* BODYYY */
+@media screen and (max-width: 768px){
+  .wit{
+    display: none;
+  }  
+  .press ul{
+    width: 90vw;
+  }
+     /* footer */
+     .reg{
+      display: block;
+      width: 50vw;
+     text-align: center;
+     
+  }
+  .reg ul{
+      margin: 10px;
+  }
+}

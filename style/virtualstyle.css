@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.virt{
+    overflow: auto;
+    background-image: url(../pictures/virtual-card-background.jpg);
+    background-size: cover;
+    mix-blend-mode: lighten;
+}
+.vir1 img{
+    height: 10vw;
+}
+.vir2 img{
+    height: 5vw;
+}
+.vir ul{
+    display: flex;
+    gap: 60vw;
+    /* width: 30vw; */
+    /* margin: auto; */
+    justify-content: end;
+}
+
+.exp{
+    background-image: url(../pictures/saturn.png), url(../pictures/earth.jpeg);
+    background-size: cover;
+    width: 30vw;
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+   
+}
+.exp ul{
+    padding: 20px;
+}
+.pict{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.pict img{
+    height: 3vw;
+}
+.ash{
+    font-size: larger;
+}
+.ash2 a{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.hold{
+    display: flex;
+    justify-content: space-between;
+
+}
+.hold ::placeholder{
+    color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+
+}
+.hold a{
+    color: #ffffff;
+    font-family: "Source Code Pro", monospace;
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+.ash a{
+    font-family: "Source Code Pro", monospace;
+    font-weight: 500;
+    font-size: 27px;
+    color: #ffffff;
+}
+/* /////////// */
+.car{
+    padding: 150px;
+}
+.tes{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: -150px;
+    margin-left: -70px;
+    opacity: .4;
+    
+}
+.tes li{
+    color: #1a3b5d;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.tes ul{
+   margin-top: 200px;
+   padding: 20px;
+   
+}
+.hold input{
+    border: none;
+    padding: 5px;
+    width: 4vw;
+    background-color: transparent;
+    
+   
+}
+.tes input{
+    border: none;
+    padding: 5px;
+    border-bottom: thin solid black;
+    background-color: transparent;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 9vw;
+}
+.tes button{
+    padding: 7px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 2px;
+}
+.tes button a{
+    color: white;
+    font-weight: 400;
+    font-family: monospace;
+    font-size: 16px;
+}

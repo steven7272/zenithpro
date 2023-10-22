@@ -1,0 +1,242 @@
+            /* header header header */
+@media screen and (max-width: 1024px) {
+    .head4{
+        display: none;
+    }
+    .head6{
+        justify-content: end;
+    }
+    .zen1{
+        display: flex;
+        gap: 10px;
+    }
+    .zen2{
+        display: flex;
+        align-items: center;
+    }
+    .zen2 img{
+        height: 11vh;
+    }
+    .menn img{
+        height: 5vh;
+    }
+    .logi img{
+        height: 3vh;
+    }
+    .nigg img{
+        height: 2vh;
+    }
+    
+    .head22{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+    }
+    .nigg a{
+        color: #999999;
+        font-size: x-small;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+    }
+    .sear a{
+        color: #999999; 
+        font-size: x-small;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+    }
+    .logi a{
+        color: #999999; 
+        font-size: x-small;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+    }
+    .padl a{
+        color: #999999; 
+        font-size: x-small;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+    }
+                    /* BODY BODY BODY */
+   .rnb{
+    display: none;
+   } 
+   .getacc{
+    height: 50vw;
+   }
+   .rnb2{
+    width: 40vw;
+   }
+   .rnb2 button{
+    width: 10vw;
+   }
+}
+           /* HEADER SECOND MEDIA */
+@media screen and (max-width: 768px) {
+.head1{
+    display: none;
+}
+.hed{
+    /* background-color: #eae8e8; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 60vw;
+    margin: auto;
+    
+    
+}
+.hed li a{
+    /* gap: 10px; */
+    color: #706161;
+    font-size: x-small;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    
+}
+/* BODY BODY BODY */
+.rnb2{
+    width: 60vw;
+}
+.rnb2 button{
+    width: 15vw;
+}
+
+}
+    /* body body body */
+@media screen and (max-width: 1024px) {
+.bd2 ul{
+    display: none;
+}
+    /*inb scam alert  */
+.inb{
+    height: 30vw;
+}
+     /* BODY 44444 */
+.susdev{
+    /* height: 30vw; */
+}
+.raim{
+    width: 50vw;
+}
+.raim1{
+    padding: 100px;
+    width: 70vw;
+}
+.raim1 li a{
+    /* padding: 30px; */
+    font-size: x-small;
+}
+.raim1 li{
+    display: none;
+    /* height: 50px; */
+    /* width: 150px; */
+    
+}
+}
+   /* 2nd body */
+@media screen and (max-width: 768px) {
+    /*inb  */
+.mob ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+.mob li a{
+    /* margin: auto; */
+}
+.inb{
+    height: 80vw;
+}
+.intban{
+    display: none;
+}
+.mob2{
+    margin: 250px;
+}
+.mob4{
+    margin: 250px -50px;
+}
+.mob6{
+    margin: 150px;
+}
+  /* BODY 444444444 */
+.susdev{
+    /* height: 50vw; */
+}
+.raim1{
+    /* display: none; */
+    width: 70vw;
+}
+.lasb{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* margin: 150px; */
+    text-align: center;
+}
+}
+/* LAST BODY BODY BODY */
+@media screen and (max-width: 1024px){
+.lasb li{
+    font-size: xx-small;
+}
+
+.lasb{
+    /* width: 100%; */
+}
+}
+@media screen and (max-width: 426px){
+.lasb{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* margin: 100px; */
+    text-align: center;
+    
+}
+.lasb img{
+    display: none;
+}
+.susdev{
+    /* height: 60vw; */
+}
+.raim{
+    /* width: 100%; */
+}
+.raim1{
+    font-size: xx-small;   
+}
+
+.rnb2{
+    font-size: x-small;
+}
+}
+.mob{
+    font-size: x-small;
+    /* width: 70vw; */
+}
+.plc{
+    /* display: block; */
+}
+.inn{
+   padding: 5px;
+   width: 50vw;
+}
+@media screen and (max-width: 380px){
+.rnb2{
+    /* height: 50vw; */
+} 
+.getacc{
+    height: 50vw;
+}
+.raim1{
+    display: none;
+}
+.rnb2 button{
+    /* display: none; */
+}
+.rnb2{
+    font-size: x-small;
+}
+    
+}
+@media screen and(max-width: 769px) {
+.plc{
+    display: block;
+}
+}

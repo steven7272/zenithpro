@@ -1,0 +1,11 @@
+@media screen and (max-width: 769px) {
+ .containerfluid{
+    display: block;
+ }  
+ .come img{
+    width: 100vw;
+ } 
+ .mont{
+    width: 100vw;
+ }
+}
